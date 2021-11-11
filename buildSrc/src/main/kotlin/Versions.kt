@@ -16,4 +16,9 @@ object Versions {
 
     // Coroutines
     const val coroutines = "1.5.2"
+
+    // Test
+    const val junit = "4.12"
+    const val mockk = "1.12.0"
+    const val assertionsCore = "4.6.3"
 }

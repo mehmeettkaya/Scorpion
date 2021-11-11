@@ -64,4 +64,10 @@ dependencies {
     // Coroutines
     implementation(Deps.coroutinesCore)
     implementation(Deps.coroutinesAndroid)
+
+    // Test
+    testImplementation(Deps.junit)
+    testImplementation(Deps.assertionsCore)
+    testImplementation(Deps.mockk)
+    testImplementation(Deps.coroutinesTest)
 }

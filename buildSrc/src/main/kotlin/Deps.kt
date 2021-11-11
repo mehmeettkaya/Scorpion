@@ -20,4 +20,10 @@ object Deps {
     // Coroutines
     const val coroutinesCore = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.coroutines}"
     const val coroutinesAndroid = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.coroutines}"
+
+    // Test
+    const val junit = "junit:junit:${Versions.junit}"
+    const val mockk = "io.mockk:mockk:${Versions.mockk}"
+    const val coroutinesTest = "org.jetbrains.kotlinx:kotlinx-coroutines-test:${Versions.coroutines}"
+    const val assertionsCore = "io.kotest:kotest-assertions-core:${Versions.assertionsCore}"
 }

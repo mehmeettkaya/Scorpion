@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Scorpion</string>
+    <string name="empty_case_text">There are no person!</string>
+</resources>
